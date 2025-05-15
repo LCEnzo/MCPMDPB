@@ -1,0 +1,42 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+
+# Python
+venv*/
+**/__pycache__/
+*.pyc
+static
+
+# IDE
+../.idea/*
+.idea/
+.vscode/
+
+# DB
+db.sqlite3
+*.db
+
+# Logging
+*.log
+*.log.*
+log.txt
+
+# Notes
+notes.md
+
+# Env
+.env
+
+# Line profiler
+profile_output*.txt
+profile_output*.lprof
+
+# Misc
+.dir*
+.cov*
