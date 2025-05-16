@@ -12,6 +12,8 @@ venv*/
 **/__pycache__/
 *.pyc
 static
+.venv/
+uv.lock
 
 # IDE
 ../.idea/*

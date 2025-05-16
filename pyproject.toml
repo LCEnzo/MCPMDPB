@@ -1,3 +1,20 @@
+[project]
+name = "mcpmdpb"
+version = "0.1.0"
+description = "Model Context Protocol Music Player Daemon Bridge"
+requires-python = ">=3.13"
+dependencies = [
+    "mcp~=1.9.0",
+    "python-mpd2~=3.1.1",
+]
+
+[project.optional-dependencies]
+dev = [
+    "ruff~=0.11.10",
+    "mypy~=1.15.0",
+    "mcp[cli]",
+]
+
 [tool.black]
 exclude = '''
 (
